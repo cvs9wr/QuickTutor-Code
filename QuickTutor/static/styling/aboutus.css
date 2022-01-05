@@ -1,0 +1,189 @@
+/*
+
+OneTel Template
+
+http://www.templatemo.com/tm-468-onetel
+
+*/
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s; 
+}
+
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+body
+	{
+		background: #343a40;
+    color: rgb(151, 151, 151);
+    background-size: cover;
+	}
+
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+/* heading section */
+h1,h2,h3,h4 {
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+}
+
+h1,h2 {
+  font-size: 30px;
+}
+
+/* images retina */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* navigation */
+
+/* divider section */
+.divider {
+  color: #fff;
+  text-align: center;
+}
+.divider .fa {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 80px;
+  height: 80px;
+  line-height: 76px;
+  text-transform: capitalize;
+}
+.divider h2 {
+  padding-bottom: 4px;
+}
+.divider .divider-wrapper {
+  padding: 40px 20px 40px 20px;
+  position: relative;
+  bottom: 40px;
+  transition: all 0.4s ease-in;
+}
+.divider .divider-wrapper:hover {
+  bottom: 60px;
+  cursor: pointer;
+}
+.divider .divider-one {
+  background: #c14000;
+}
+.divider .divider-two {
+  background: #009988;
+}
+.divider .divider-three {
+  background: #ffa500;
+}
+
+
+/* team section */
+#team {
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+#team h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+#team h3 {
+  padding-bottom: 10px;
+}
+#team .team-wrapper {
+  padding: 20px;
+  width: 300px;
+  height: 450px;
+  position: relative;
+  margin: 10px;
+  background-color: #3773f5;
+}
+
+#team h4 {
+  color: rgb(201, 201, 201);
+}
+#team hr {
+  border-color: #292828;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#team strong {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+#team .progress {
+  border-radius: 0px;
+  height: 4px;
+}
+
+/* media 960 */
+@media ( max-width: 980px ) {
+  .divider .divider-wrapper {
+    margin-bottom: 20px;
+  }
+  #about .about-des {
+    padding-bottom: 40px;
+  }
+  #team .team-wrapper {
+    margin-bottom: 40px;
+  }
+  #contact h3 {
+    padding-top: 20px;
+  }
+  #contact .btn {
+    margin-bottom: 20px;
+  }
+  footer h3 {
+    padding-top: 30px;
+  }
+}
+
+.aboutUsMessage {
+  color: black;
+}
+
+.team {
+  padding-top: 0px;
+}
+
+.position-relative { 
+  text-align: center; 
+  padding-top: 20px;
+}
+
+.aboutUsMessage {
+  color: white;
+}

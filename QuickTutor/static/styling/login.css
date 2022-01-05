@@ -1,0 +1,35 @@
+body {
+    background: #343a40;
+    background-size: cover;
+}
+
+.fa {
+    color: white;
+    
+}
+
+h1 {
+    color: white;
+    display: center;
+}
+
+h4 {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.socialaccount_ballot {
+    color: white;
+}
+
+.input-group {
+    text-align: center;
+    padding-left: 105px;
+}

@@ -1,0 +1,32 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Sign Out" %}{% endblock %}
+
+{% block content %}
+<h1 class="text-center">{% trans "Sign Out" %}</h1>
+
+<p class="text-center">{% trans 'Are you sure you want to sign out?' %}</p>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <div class="form-gap"></div>
+    <div class="container">
+            <div class="text-center">
+                <h3><i class="fa fa-user-times fa-4x"></i></h3>
+                <h2 class="text-center">Sign Out?</h2>
+                <p>You can sign out here.</p>
+                <div class="panel-body"></div>
+
+                <form method="post" action="{% url 'account_logout' %}">
+                  {% csrf_token %}
+                  {% if redirect_field_value %}
+                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+                  {% endif %}
+                  <button type="submit" class="btn btn-info btn-lg">{% trans 'Sign Out' %}</button>
+                </form>
+      </div>
+</div>
+</div>
+
+{% endblock %}
